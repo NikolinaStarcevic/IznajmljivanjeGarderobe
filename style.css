@@ -1,9 +1,6 @@
 
-body{
-    font-family: 'Segoe UI', sans-serif;
-}
 .hero{
-    background-image: url(https://spokaneeats.net/wp-content/uploads/2024/05/Tezza-5853-3-scaled-1.webp);
+    background-image: url(https://i.pinimg.com/736x/e0/6f/a1/e06fa16da13600cf4e24c0f9640a8e4a.jpg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -18,7 +15,6 @@ body{
     text-align: center;
     font-size: 35px;
 }
-
 #povratak{
     text-decoration: none;
     color: black;
@@ -46,8 +42,7 @@ body{
     
 }
 #foter {
-    background-color: #000;
-    color: #aaa;
+   
     padding: 20px;
     font-size: 14px;
 }
@@ -58,21 +53,20 @@ body{
     height: 50px;
     margin-right: 10px;
 }
-.navbar {
-    padding: 15px 20px;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+.navbar-nav .nav-link {
+    color: #e83e8c !important; 
 }
-.nav-link:hover {
-    color: #ffc107;
-    transition: 0.3s;
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #d63384 !important; 
 }
 
 .btn-success:hover {
-    background-color: #218838;
+    background-color: lightpink;
 }
 #dugme{
-    background-color:lightskyblue;
+    background-color:lightpink;
 }
 @keyframes fadeInUp {
     0% {
@@ -94,8 +88,8 @@ body{
     margin-bottom: 10px;
 }
 .card-img-top {
-    height: 300px;
-    object-fit: cover;
+    height: 350px;   
+    object-fit: cover;  
 }
 
 .card {
@@ -125,14 +119,6 @@ body{
 .form-label {
       font-weight: 500;
     }
-.btn-primary {
-      background-color: #6f42c1;
-      border: none;
-      transition: background-color 0.3s ease;
-    }
-.btn-primary:hover {
-      background-color: #5a2ca0;
-    }
 h2.title {
       text-align: center;
       margin-top: 40px;
@@ -155,9 +141,52 @@ h2.title::after {
         font-size: 18px;
     }
 .nav-link.active{
-    color:rgb(123, 172, 255)  !important; 
+    color:rgb(255, 228, 191)  !important; 
     font-weight: bold;
 }
 .price {
-    color: rgb(61, 123, 231) !important;
+    color:#e83e8c !important;
+}
+.modal-title{
+    color: #e83e8c;
+}
+.text-roze {
+    color: #e83e8c !important;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title,
+.card-text,
+.card .price {
+    min-height: 50px;
+}
+
+.card .btn {
+    margin-top: auto; 
+}
+#footer{
+    background-color: rgb(255, 228, 191);
+    color: #e83e8c;
+}
+#nav{
+    background-color: rgb(255, 228, 191);
+    color: #e83e8c;
 }
